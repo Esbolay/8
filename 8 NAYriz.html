@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Наурыз мерекесіне шақыру</title>
+    <link rel="stylesheet" href="scratch.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Құрметті қонақтар!</h1>
+        <p>Сіздерді 8 наурыз мерекесіне арналған кешімізге шақырамыз!</p>
+        <p><strong>Күні:</strong> 9 наурыз 2025 ж.</p>
+        <p><strong>Уақыты:</strong> 17:30</p>
+        <p><strong>Орны:</strong> Астана қ., Лепсі көшесі, 13 ғимарат</p>
+        <p>Мерекелік көңіл-күйді бірге бөлісейік!</p>
+
+        <button onclick="openRSVP()">Қатысамын</button>
+
+        <div id="rsvp-form" class="hidden">
+            <h2>Қатысуыңызды растаңыз</h2>
+            <input type="text" id="name" placeholder="Атыңызды жазыңыз" required>
+            <input type="email" id="email" placeholder="Электронды поштаңыз" required>
+            <button onclick="submitRSVP()">Жіберу</button>
+            <p id="confirmation" class="hidden">Рақмет! Сізді асыға күтеміз!</p>
+        </div>
+    </div>
+
+    <script src="scratch.js"></script>
+</body>
+</html>
